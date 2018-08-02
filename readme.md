@@ -47,6 +47,10 @@ $ browser-unpack < compile.js >unpack.js
 
 通过页面的debug, 可以查看一下实现方式. 感觉很不错
 
-管家你的地方就是, 按照数组中的依赖栈进行依次执行, require 的就是上一个依赖 module.exports 出去的. 这一点理解了很重要.
+关键的地方就是, 按照数组中的依赖栈进行依次执行, require 的就是上一个依赖 module.exports 出去的. 这一点理解了很重要.
+
+
+
+> tks, @liyongleihf2006 校对
 
 
